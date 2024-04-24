@@ -9,7 +9,7 @@
           user: env('DATABASE_USERNAME'),
           password: env('DATABASE_PASSWORD'),
           ssl: {
-            ca: env('DATABASE'),
+            ca: env('DATABASE_CA'),
           },
         },
         debug: false,
